@@ -1,16 +1,8 @@
-let n: number = 10;
+let n: number = 11;
 
-let fParImpar = function(numero:number):void
+let fParImpar = function(numero:number):boolean
 {
-    if (numero % 2 == 0)
-    {
-        console.log("Par.");
-    }
-    else
-    {
-        console.log("Ímpar.");
-    }
+    return numero % 2 == 0
 }
 
 console.log(`${fParImpar(n)}`)
-
